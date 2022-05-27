@@ -1,6 +1,6 @@
 #install.packages("plumber")
 library(plumber)
 
-r <- plumb("plumber.R")
-r$run(port=8000)
+app <- plumb("plumber.R")
+app$run(port=8000)
 

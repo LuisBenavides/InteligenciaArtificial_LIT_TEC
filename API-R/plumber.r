@@ -1,5 +1,3 @@
-# plumber.R
-
 #* Echo back the input
 #* @param msg The message to echo
 #* @get /echo
@@ -11,8 +9,8 @@ function(msg=""){
 #* @png
 #* @get /plot
 function(){
-  rand <- rnorm(100)
-  hist(rand)
+  x <- rnorm(100)
+  hist(x)
 }
 
 #* Return the sum of two numbers
